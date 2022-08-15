@@ -1,0 +1,19 @@
+// login
+
+#box {
+    margin: 10vh auto;
+    border-radius: 24px;
+    padding: 5px;
+
+    @media (min-width: 768px) {
+        width: 50%;
+    }
+
+    @media (min-width: 992px) {
+        width: 30%;
+    }
+
+    .btn-submit, .btn-signup, .btn-home, .btn-login, .btn-update, .btn-logout{
+        width: 100%;
+    }
+}

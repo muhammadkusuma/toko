@@ -1,0 +1,18 @@
+#box {
+  margin: 10vh auto;
+  border-radius: 24px;
+  padding: 5px;
+}
+@media (min-width: 768px) {
+  #box {
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  #box {
+    width: 30%;
+  }
+}
+#box .btn-submit, #box .btn-signup, #box .btn-home, #box .btn-login, #box .btn-update, #box .btn-logout {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
